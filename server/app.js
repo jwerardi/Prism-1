@@ -11,7 +11,7 @@ var express = require('express'),
     localStrategy = require('passport-local' ).Strategy;
 
 // mongoose
-mongoose.connect('mongodb://localhost/mean-auth');
+mongoose.connect('mongodb://heroku_5c0ndrb8:jpgbrandcgl7pqht51ema0jtq@ds061335.mongolab.com:61335/heroku_5c0ndrb8');
 
 // user schema/model
 var User = require('./models/user.js');
